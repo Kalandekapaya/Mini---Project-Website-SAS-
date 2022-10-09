@@ -417,16 +417,16 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`sid`, `name`, `rollno`) VALUES
-(1, 'Katie Womack', '10'),
+(1, 'Katie chisenga', '10'),
 (2, 'Brian Mwale\n', '11'),
 (3, 'Jennifer Bwalya\n', '12'),
 (4, 'Etta Thomas\n', '13'),
 (5, 'Thomas Zulu\n', '14'),
 (6, 'Tracie Tembo\n', '15'),
 (7, 'Michael Zulu', '16'),
-(8, 'Sandy J White\n', '17'),
+(8, 'Sande phiri\n', '17'),
 (9, 'William Mwanza', '18'),
-(10, 'Sandy Gondwe\n', '19'),
+(10, 'Saidi Gondwe\n', '19'),
 (11, 'Sharon Mwenya\n', '20'),
 (12, 'Robson Kaite\n', '21'),
 (13, 'Danielle Daka\n', '22'),
@@ -583,11 +583,11 @@ CREATE TABLE `subject` (
 --
 
 INSERT INTO `subject` (`id`, `name`) VALUES
-(1, 'Data Mining and Visualisation'),
-(2, 'Cloud Privacy and Security'),
-(3, 'Cloud Computing'),
-(4, 'Web Development'),
-(5, 'Digital Forensics');
+(1, 'Biology'),
+(2, 'Math'),
+(3, 'Chemistry'),
+(4, 'Physics'),
+(5, 'History');
 
 -- --------------------------------------------------------
 
@@ -612,9 +612,9 @@ INSERT INTO `user` (`uid`, `uname`, `password`, `email`, `status`, `created`) VA
 (1, 'david', 'password', 'david@gmail.com', 1, 1489060137),
 (2, 'kalande', 'password', 'kalande@gmail.com', 1, 1489060137),
 (3, 'regina', 'password', 'regina@gmail.com', 1, 1489060137),
-(4, 'owen', 'password', 'owen@gmail.com', 1, 1489060137),
-(5, 'bruce', 'password', 'bruce@gmail.com', 1, 1489060137),
-
+(4, 'bruce', 'password', 'bruce@gmail.com', 1, 1489060137),
+(5, 'owen', 'password', 'owen@gmail.com', 1, 1489060137),
+(6, 'test', 'password', 'test@gmail.com', 1, 1489060137);
 
 -- --------------------------------------------------------
 
