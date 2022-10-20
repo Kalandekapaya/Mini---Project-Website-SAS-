@@ -2,10 +2,10 @@
 
 	//  Development connection
 	
-	$databaseHost = 'sql111.epizy.com';
-	$databaseName = 'epiz_32757300_myregister';
-	$databaseUsername = 'epiz_32757300';
-	$databasePassword = '**********';
+	$databaseHost = 'localhost';
+	$databaseName = 'studentattdb';
+	$databaseUsername = 'regadmin';
+	$databasePassword = 'regadminpass';
 
 	// remote Database connection
 	
